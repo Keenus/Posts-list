@@ -14,7 +14,5 @@ module.exports = defineConfig({
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/Posts-list/'
-      : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/Posts-list/' : '/'
 });
