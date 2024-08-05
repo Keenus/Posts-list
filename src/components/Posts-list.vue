@@ -8,7 +8,7 @@
       <ul class="row g-3 p-0">
         <li v-for="item in getData" :key="item.id" class="col-12 col-sm-6 col-md-6 list-unstyled">
           <div class="card p-0 rounded h-100">
-            <h3 class="card-title text-capitalize text-bg-light rounded rounded-bottom-5 p-2">
+            <h3 class="card-title text-capitalize text-bg-light rounded rounded-bottom-5 p-2 px-3">
               {{ shortenTitle(item.title) }}
               <button type="button" class="btn-close" aria-label="Close" @click="deletePost(item.id)"></button>
             </h3>
