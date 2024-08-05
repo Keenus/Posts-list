@@ -22,9 +22,9 @@
                 {{ shortenText(item.body, item.id) }}
               </div>
               <p class="text-end mt-3 mb-0">
-                <a href="#" @click="toggleText(item.id)">
+                <span class="link-primary" @click="toggleText(item.id)">
                   {{ expandedPosts.has(item.id) ? 'Zwiń' : 'Zobacz więcej' }}
-                </a>
+                </span>
               </p>
             </div>
           </div>
