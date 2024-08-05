@@ -18,7 +18,7 @@
                   <strong>Autor:</strong> {{ item.userName }}
                 </span>
               </p>
-              <div>
+              <div class="text-start">
                 {{ shortenText(item.body, item.id) }}
               </div>
               <p class="text-end mt-3 mb-0">
